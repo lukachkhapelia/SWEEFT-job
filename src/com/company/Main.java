@@ -15,7 +15,7 @@ public class Main {
             return 2;
 
         else
-            return CountVariants(n - 3) + CountVariants(n - 2) + CountVariants(n - 1);
+            return  CountVariants(n - 2) + CountVariants(n - 1);
     }
 
     public static void main(String[] args) {
